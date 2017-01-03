@@ -1,2 +1,7 @@
 <h1>User</h1>
 <li>id: <%= @user.id %>, name: <%= @user.name %>, friends: <%= @user.friends %></li>
+
+<% @friends.each_with_index do | friend, index | %>
+  <h1>Friend<%= index+1 %></h1>
+  <li>id: <%= friend.id %>, name: <%= friend.name %>, friends: <%= friend.friends %></li>
+<% end %>
