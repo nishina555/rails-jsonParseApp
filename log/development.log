@@ -1,0 +1,15 @@
+Started GET "/" for ::1 at 2017-01-03 21:43:16 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/nishina/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nishina/.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (4.5ms)
+Completed 200 OK in 33ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/show" for ::1 at 2017-01-03 21:43:19 +0900
+Processing by UsersController#show as HTML
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 931ms (Views: 899.5ms | ActiveRecord: 0.0ms)
+
+
