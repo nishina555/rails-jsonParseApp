@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def show
-    @user = User.getUser("1")
+    @user = User.getUser(params[:id])
     @friends = []
     @user.friends.each do | friend |
         friend = User.getUser(friend.to_s)
